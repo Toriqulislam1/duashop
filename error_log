@@ -1,0 +1,52 @@
+[11-Oct-2022 18:00:59 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'behzadsh_6vally', 'behzadsh6vally3...', Array)
+#1 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'behzadsh_6vally', 'behzadsh6vally3...', Array)
+#2 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFact in /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[11-Oct-2022 18:01:05 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'behzadsh_6vally', 'behzadsh6vally3...', Array)
+#1 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'behzadsh_6vally', 'behzadsh6vally3...', Array)
+#2 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFact in /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[11-Oct-2022 18:01:18 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'behzadsh_6vally', 'behzadsh6vally3...', Array)
+#1 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'behzadsh_6vally', 'behzadsh6vally3...', Array)
+#2 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFact in /home/behzadsh/blog.appllys.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[18-Jan-2023 12:54:24 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#1 /home/duashopbd/public_html/vendor/la[20-May-2023 08:30:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#1 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#2 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal functio in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[20-May-2023 08:41:47 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#1 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#2 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal functio in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[20-May-2023 09:03:08 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#1 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#2 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal functio in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[23-May-2023 22:54:59 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#1 /home/duashopbd/public_html/vendor/laravel/fram[01-Jun-2023 08:22:04 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#1 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'duashopbd_shop', '5u4[^],W?hdF', Array)
+#2 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal functio in /home/duashopbd/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
