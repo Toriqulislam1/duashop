@@ -23,7 +23,15 @@ class SocialAuthController extends Controller
 
     public function handleProviderCallback($service)
     {
+
         $user_data = Socialite::driver($service)->stateless()->user();
+
+       $image = $user_data->getAvatar();
+    //    dd($image);
+    //    die();
+
+
+
 
         $user = User::where('email', $user_data->getEmail())->first();
 
@@ -48,7 +56,9 @@ class SocialAuthController extends Controller
                 'social_id' => $user_data->id,
                 'is_phone_verified' => 0,
                 'is_email_verified' => 1,
+                'image' =>$image,
                 'temporary_token' => Str::random(40)
+
             ]);
         } else {
             $user->temporary_token = Str::random(40);

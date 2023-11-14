@@ -213,6 +213,7 @@ class WebController extends Controller
         if ($products == null) {
             $result = ProductManager::translated_product_search_web($request['name']);
             $products = $result['products'];
+            
         }
 
         return response()->json([

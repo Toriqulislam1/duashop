@@ -1046,10 +1046,6 @@
             });
         }
 
-
-
-
-
         function pdf(){
             $('#editCoupon').modal('show');
         }

@@ -257,11 +257,35 @@
                             <a class="navbar-tool ml-2 mr-2 " type="button" data-toggle="dropdown" aria-haspopup="true"
                                aria-expanded="false">
                                 <div class="navbar-tool-icon-box bg-secondary">
+
                                     <div class="navbar-tool-icon-box bg-secondary">
+                                        @if(auth('customer')->user()->image== 'def.png')
                                         <img style="width: 40px;height: 40px"
-                                             src="{{asset('storage/app/public/profile/'.auth('customer')->user()->image)}}"
-                                             onerror="this.src='{{asset('public/assets/front-end/img/image-place-holder.png')}}'"
-                                             class="img-profile rounded-circle">
+                                        src="{{asset('storage/app/public/profile/'.auth('customer')->user()->image)}}"
+                                        onerror="this.src='{{asset('public/assets/front-end/img/image-place-holder.png')}}'"
+                                        class="img-profile rounded-circle">
+
+                                        @elseif(auth('customer')->user()->login_medium==!null)
+                                        <img style="width: 40px;height: 40px"
+                                        src="{{auth('customer')->user()->image}}"
+                                        onerror="this.src='{{asset('public/assets/front-end/img/image-place-holder.png')}}'"
+                                        class="img-profile rounded-circle">
+                                        @if(auth('customer')->user()->updated_at ==!null)
+
+                                        <img
+                                        src="{{asset('storage/app/public/profile/'.auth('customer')->user()->image)}}"
+                                        onerror="this.src='{{asset('public/assets/front-end/img/image-place-holder.png')}}'"
+                                        class="img-profile rounded-circle">
+
+                                        @endif
+                                        @else
+
+                                        <img style="width: 40px;height: 40px"
+                                        src="{{asset('storage/app/public/profile/'.auth('customer')->user()->image)}}"
+                                        onerror="this.src='{{asset('public/assets/front-end/img/image-place-holder.png')}}'"
+                                        class="img-profile rounded-circle">
+                                        @endif
+
                                     </div>
                                 </div>
                                 <div class="navbar-tool-text">
